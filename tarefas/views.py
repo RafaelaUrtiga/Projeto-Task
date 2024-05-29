@@ -1,7 +1,7 @@
 from rest_framework import status
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from django.db.models import Count, Q
+from django.db.models import Count, Q, F
 from rest_framework import permissions
 from.models import Task
 from .serializers import TaskSerializer
